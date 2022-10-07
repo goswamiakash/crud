@@ -19,8 +19,6 @@ const AddUser = () => {
         e.preventDefault();
         await axios.post("http://localhost:3001/users", user);
         history.push("/")
-        
-
     };
 
     return (
